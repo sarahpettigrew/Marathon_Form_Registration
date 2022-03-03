@@ -1,0 +1,34 @@
+body {
+  background-color: beige;
+}
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  color: darkolivegreen;
+  text-decoration: underline;
+}
+p {
+  font-size: 1.5rem;
+  color: olive;
+  text-align: left;
+  font-weight: 700;
+  text-decoration: underline;
+  margin: 10px;
+}
+label {
+  color: olive;
+}
+input {
+  margin-bottom: 10px;
+}
+button {
+  margin: 10px;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 10px;
+}
+.section {
+  margin: 20px;
+}

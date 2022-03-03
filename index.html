@@ -6,7 +6,7 @@
     <title>Registration Form</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Race Registration!</h1>
@@ -18,28 +18,33 @@
         <input type="text" name="lastName" id="last" required />
       </div>
 
-      <p>Select a race:</p>
-      <div>
-        <input type="radio" name="race" id="funrun" value="funrun" />
-        <label for="funrun">Fun Run 5K</label>
+      <div class="section">
+        <p>Select a race:</p>
+        <div>
+          <input type="radio" name="race" id="funrun" value="funrun" />
+          <label for="funrun">Fun Run 5K</label>
+        </div>
+        <div>
+          <input type="radio" name="race" id="half" value="half" />
+          <label for="half">Half Marathon</label>
+        </div>
+        <div>
+          <input type="radio" name="race" id="full" value="full" />
+          <label for="full">Full Marathon</label>
+        </div>
       </div>
-      <div>
-        <input type="radio" name="race" id="half" value="half" />
-        <label for="half">Half Marathon</label>
-      </div>
-      <div>
-        <input type="radio" name="race" id="full" value="full" />
-        <label for="full">Full Marathon</label>
-      </div>
-      <div>
+      <div class="section">
         <label for="email">Email</label>
         <input type="email" name="email" id="email" required />
         <label for="password">Password</label>
         <input type="password" name="password" id="password" required />
       </div>
-      <div>
+      <div class="section">
         <label for="division">Select Age Group</label>
         <select name="division" id="division">
+          <option disabled selected label="Age Groups--">
+            Select Age Group--
+          </option>
           <option value="kids">under 18</option>
           <option value="ya">18-30</option>
           <option value="adults">30-50</option>
